@@ -1,0 +1,33 @@
+concept_product
+
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+          [продукт питания]
+          (*<-lang_ru;;*);
+          [product]
+          (*<-lang_en;;*);
+
+=> nrel_inclusion: fruit_apricot;
+=> nrel_inclusion: fruit_apple;
+=> nrel_inclusion: fruit_banana;
+=> nrel_inclusion: berry_cherry;
+=> nrel_inclusion: berry_grape;
+=> nrel_inclusion: fruit_grapefruit;
+=> nrel_inclusion: fruit_kiwi;
+=> nrel_inclusion: fruit_lemon;
+=> nrel_inclusion: fruit_lime;
+=> nrel_inclusion: fruit_melon;
+=> nrel_inclusion: fruit_orange;
+=> nrel_inclusion: fruit_peach;
+=> nrel_inclusion: fruit_pear;
+=> nrel_inclusion: fruit_pineapple;
+=> nrel_inclusion: berry_watermelon;
+=> nrel_inclusion: bran;
+=> nrel_inclusion: cheese;
+=> nrel_inclusion: eggs;
+=> nrel_inclusion: fish;
+=> nrel_inclusion: nuts;
+=> nrel_inclusion: pea;
+=> nrel_inclusion: rainsins;;
+

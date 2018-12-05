@@ -1,0 +1,9 @@
+berry_watermelon
+
+
+=> nrel_main_idtf:
+          [арбуз]
+          (*<-lang_ru;;*);
+          [watermelon]
+          (*<-lang_en;;*);;
+

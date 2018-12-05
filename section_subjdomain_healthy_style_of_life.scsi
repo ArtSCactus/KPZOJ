@@ -1,0 +1,98 @@
+subjdomain_of_healthy_style_of_life
+=> nrel_main_idtf:
+	[Здоровый образ жизни]
+	(* <- lang_ru;; *);
+	[Healthy style of life]
+	(* <- lang_en;; *);
+
+<- subject_domain;
+-> rrel_maximum_studied_object_class: healthy_style_of_life;
+-> rrel_not_maximum_studied_object_class:
+	concept_diet;
+	concept_physical_exercises;
+	concept_mineral_balance;;
+
+healthy_style_of_life
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[здоровый образ жизни]
+	(* <- lang_ru;; *);
+	[healthy style of life]
+	(* <- lang_en;; *);
+<= nrel_basic_decomposition:
+	{
+	concept_diet;
+	concept_physical_exercises;
+	concept_mineral_balance
+	};;
+
+concept_diet
+=> nrel_main_idtf:
+	[здоровое питание]
+	(* <- lang_ru;; *);
+	[diet]
+	(* <- lang_en;; *);
+
+=> nrel_inclusion:products;
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:	
+			...
+			(*
+			-> rrel_example:
+				"file://explanations/explanation_for_diet.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);;
+
+
+concept_physical_exercises
+=> nrel_main_idtf:
+	[физические нагрузки]
+	(* <- lang_ru;; *);
+	[physical_exercises]
+	(* <- lang_en;; *);
+
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:	
+			...
+			(*
+			-> rrel_example:
+				"file://explanations/explanation_for_physical_exercises.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);;
+
+concept_mineral_balance
+=> nrel_main_idtf:
+	[вещественный баланс]
+	(* <- lang_ru;; *);
+	[mineral balance]
+	(* <- lang_en;; *);
+
+=> nrel_decomposition:{
+	concept_microelement;
+	concept_macroelement;
+	concept_vitamin
+};
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:	
+			...
+			(*
+			-> rrel_example:
+				"file://explanations/explanation_for_mineral_balance.html"
+				(* <- lang_ru;;	*);;
+			*);;
+	*);;

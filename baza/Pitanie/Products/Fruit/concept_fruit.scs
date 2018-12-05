@@ -1,0 +1,23 @@
+concept_fruit
+
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+          [фрукт]
+          (*<-lang_ru;;*);
+          [fruit]
+          (*<-lang_en;;*);
+
+=> nrel_inclusion:fruit_apricot;
+=> nrel_inclusion:fruit_apple;
+=> nrel_inclusion:fruit_banana;
+=> nrel_inclusion:fruit_grapefruit;
+=> nrel_inclusion:fruit_kiwi;
+=> nrel_inclusion:fruit_lemon;
+=> nrel_inclusion:fruit_lime;
+=> nrel_inclusion:fruit_melon;
+=> nrel_inclusion:fruit_orange;
+=> nrel_inclusion:fruit_peach;
+=> nrel_inclusion:fruit_pear;
+=> nrel_inclusion:fruit_pineapple;;
+

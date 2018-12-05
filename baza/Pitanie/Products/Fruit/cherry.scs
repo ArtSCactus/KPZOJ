@@ -1,0 +1,9 @@
+berry_cherry
+
+
+=> nrel_main_idtf:
+          [вишня]
+          (*<-lang_ru;;*);
+          [cherry]
+          (*<-lang_en;;*);;
+
